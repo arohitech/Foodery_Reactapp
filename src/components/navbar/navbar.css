@@ -1,0 +1,135 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    color: rgb(252, 250, 247);
+
+    position: sticky;
+    background-color: white;
+
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+.nav-menu li {
+    color: black;
+    font-weight: 500;
+    list-style: none;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.navbar-right .icon{
+   color: black;
+   font-size: 30px;
+   display: none;
+}
+
+.navbar-right button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(241, 81, 56);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.navbar-right button:hover {
+    background-color: rgb(245, 240, 239);
+    color: black;
+    border: 1px solid black;
+}
+
+
+.navbar-search-icon{
+    position: relative;
+
+}
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: red;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+
+
+
+
+
+@media screen and (max-width: 560px) {
+    .navbar-right .search-icon {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .navbar .logo{
+        font-size: 20px;
+        height: 30px;
+        width: 100px;
+
+    } 
+
+    .navbar-right .basket-icon {
+        height: 20px;
+        margin-left: 40px;
+    }
+    .navbar-right button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+      
+    
+    
+}
+
+@media screen and (max-width: 909.60px){
+    .navbar-right .login-btn{
+        display: none;
+    }
+    .navbar-right .icon{
+     color: black;
+     font-size: 30px;
+     display: block;
+    }
+     .links li {
+        display: none;
+    }
+    .links.active li{
+        display:  block !important;
+        color: #000;
+    }
+   
+
+    
+    
+}
+
+@media screen and (max-width: 618px){
+    .navbar-right img{
+        font-size: 20px !important;
+        margin-left: 30px !important;
+    }
+   
+}
+
+.navbar-right .search-icon{
+    display: none;
+    cursor: pointer;
+}
+
+.navbar-right .icon{
+    cursor:pointer;
+}
+

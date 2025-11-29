@@ -1,0 +1,123 @@
+
+    
+    
+
+
+.menu-bar{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-color: #3d3c3c90;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    justify-content: space-between !;
+    backdrop-filter: blur(7px);
+
+
+
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+
+
+.buttons img{
+    margin-top: 20px;
+    margin-inline:20px ;
+    
+}
+.buttons .logo{
+    width: 90px;
+}
+
+.buttons .close-btn{
+    width: 20px;
+    height: 20px !important;
+    cursor: pointer;
+    background-color: beige;
+    border-radius: 50%;
+
+}
+
+
+.nav-menu .open{
+    display: flex;
+}
+.nav-menu li{
+    color: black;
+    border-color: beige;
+}
+
+
+@media  screen and (max-width:480px) {
+    .menu-bar{
+        width: 94% !important;
+        border-radius: 20px;
+        height: 100%;
+        backdrop-filter: blur(6px);
+    }
+    
+}
+
+ .links.active ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+      text-align: left;  
+      gap: 52px; 
+      font-size: large !important;
+    }
+
+
+.links.active ul li{
+    color: white;
+    
+}
+
+
+.links.active ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(247, 191, 106);
+}
+
+
+
+.links.active ul button{
+    background-color: rgb(243, 46, 12);
+    border: none;
+    color: white;
+    padding-block: 18px;
+    border-radius: 32px;
+    padding-inline: 38px;
+    font-size: medium;
+    box-shadow: 5px 6px 12px rgba(0,0,0,0.7);
+}
+
+
+.links.active ul button:hover{
+    background-color: rgb(114, 20, 4);
+    font-size: medium;
+    border: 1px solid rgb(247, 238, 238);
+    box-shadow: 9px 12px 13px rgba(0,0,0,0.5);
+   
+}
+
+
+
+
+
+
+
+
